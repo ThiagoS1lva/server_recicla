@@ -1,6 +1,6 @@
 import sqlite3 from'sqlite3';
 sqlite3.verbose();
-const db = new sqlite3.Database('./backend/infra/database.db');
+const db = new sqlite3.Database('./infra/database.db');
 
 // //Processamento de sinal
 process.on('SIGINT', () =>
